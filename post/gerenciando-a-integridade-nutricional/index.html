@@ -1,0 +1,1210 @@
+<!DOCTYPE html><html lang="pt-br" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  
+  
+  
+  <meta name="generator" content="Wowchemy 5.0.0-beta.1 for Hugo">
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="José Carlos de Oliveira">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Adaptado de uma palestra proferida por John Kempf, fundador da Advancing Eco Agriculture
+Com base em nosso trabalho com as culturas para o manejo de doenças e a qualidade dos frutos, sabemos que a integridade nutricional das plantas é a base para a produção de culturas extraordinariamente saudáveis.">
+
+  
+  <link rel="alternate" hreflang="pt-br" href="https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/">
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+
+  
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" integrity="sha512-1xoFisiGdy9nvho8EgXuXvnpR5GAMSjFwp40gSRE3NwdUdIMIKuPa7bqoUhLD0O/5tPNhteAsE5XyyMi5reQVA==" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.2/lazysizes.min.js" integrity="sha512-TmDwFLhg3UA4ZG0Eb4MIyT1O1Mb+Oww5kFG0uHqXsdbyZz9DcvYQhKpGgNkamAI6h2lGGZq2X8ftOJvF/XjTUg==" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+    
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.min.18a81fcba9746c6a8230584f1af667d5.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2QBDSJBNK7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-2QBDSJBNK7', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+  
+
+
+  
+  
+
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="og:site_name" content="José Carlos de Oliveira">
+  <meta property="og:url" content="https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/">
+  <meta property="og:title" content="Gerenciando a integridade nutricional | José Carlos de Oliveira">
+  <meta property="og:description" content="Adaptado de uma palestra proferida por John Kempf, fundador da Advancing Eco Agriculture
+Com base em nosso trabalho com as culturas para o manejo de doenças e a qualidade dos frutos, sabemos que a integridade nutricional das plantas é a base para a produção de culturas extraordinariamente saudáveis."><meta property="og:image" content="https://zeze-oliveira.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://zeze-oliveira.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="pt-br">
+  
+    
+      <meta property="article:published_time" content="2021-01-05T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2021-01-05T00:00:00&#43;00:00">
+  
+
+  
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/"
+  },
+  "headline": "Gerenciando a integridade nutricional",
+  
+  "datePublished": "2021-01-05T00:00:00Z",
+  "dateModified": "2021-01-05T00:00:00Z",
+  
+  "author": {
+    "@type": "Person",
+    "name": "José Carlos de Oliveira"
+  },
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "José Carlos de Oliveira",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://zeze-oliveira.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Adaptado de uma palestra proferida por John Kempf, fundador da Advancing Eco Agriculture\nCom base em nosso trabalho com as culturas para o manejo de doenças e a qualidade dos frutos, sabemos que a integridade nutricional das plantas é a base para a produção de culturas extraordinariamente saudáveis."
+}
+</script>
+
+  
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>Gerenciando a integridade nutricional | José Carlos de Oliveira</title>
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.js"></script>
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Pesquisar</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Pesquisar..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">José Carlos de Oliveira</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Alterar navegação">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">José Carlos de Oliveira</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#posts"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#experience"><span>Experiência</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contato</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+      
+      
+        
+      
+
+      
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Pesquisar"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+          <i class="fas fa-moon" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  </div>
+
+  <div class="page-body">
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Gerenciando a integridade nutricional</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    05/01/2021
+  </span>
+  
+
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    7 minutos de leitura
+  </span>
+  
+
+  
+  
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/gerenciando-a-integridade-nutricional/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p>Adaptado de uma palestra proferida por John Kempf, fundador da Advancing Eco Agriculture</p>
+<p>Com base em nosso trabalho com as culturas para o manejo de doenças e a qualidade dos frutos, sabemos que a integridade nutricional das plantas é a base para a produção de culturas extraordinariamente saudáveis.</p>
+<p>Um tremendo corpo de pesquisa correlaciona doenças específicas com desequilíbrios nutricionais específicos. Por exemplo, estudos de pesquisa documentaram que o oídio nas culturas de cucurbitáceas está associado à deficiência de manganês e que a crosta de maçã está associada à deficiência de cobalto. A pesquisa que correlaciona muitas outras doenças diferentes com deficiências específicas de minerais e outros desequilíbrios nutricionais também está disponível.</p>
+<p>Em nosso trabalho com os agricultores, estávamos usando a análise do solo e a análise de tecidos à base de matéria seca para avaliar a integridade nutricional das culturas e, em seguida, fazer ajustes durante e entre as estações de crescimento para equilibrar o perfil nutricional. Depois de fazer isso por um período de seis anos, estávamos ficando cada vez mais frustrados com a análise de tecidos com base em matéria seca, porque não conseguimos estabelecer correlações entre os perfis nutricionais na análise de tecidos e o desempenho e rendimento da colheita. Toda a pesquisa disse que havia uma correlação, mas não conseguimos ver a correlação nos dados do laboratório.</p>
+<p>Há cinco anos, começamos a experimentar a análise da seiva das plantas. Agora, usamos essa tecnologia intensamente em nossos sistemas de gestão agrícola nos últimos quatro anos. Provou ser muito sensível, correlacionando-se perfeitamente com o que vemos acontecendo em campo. De fato, é tão poderoso que podemos usar a análise de seiva para visualizar o perfil nutricional de uma planta e prever a susceptibilidade a doenças ou insetos. Nunca fomos capazes de fazer isso antes. E não apenas temos a capacidade de prever problemas com base na nutrição, mas também temos o conhecimento e as informações para impedir que problemas com doenças e insetos aconteçam.</p>
+<p>Para gerenciar a saúde das plantas e a integridade nutricional de uma planta, precisamos ser capazes de monitorá-la. Você só pode gerenciar o que pode medir. Em muita agricultura de produção, há um ponto cego gigante por não saber qual é realmente a integridade nutricional de nossas culturas. Historicamente, o pressuposto foi usar a análise do solo e equilibrar os minerais de acordo com o teste do solo e isso produziria uma safra muito saudável. Se o teste do solo tiver pouco cálcio, adicionamos mais cálcio. Se tiver baixo teor de fósforo, adicionamos mais fósforo. E isso não está incorreto, mas está incompleto.</p>
+<p>Os produtores não se preocupam em equilibrar o solo para obter um relatório de laboratório perfeitamente equilibrado. Eles se preocupam em cultivar uma colheita realmente saudável. É isso que é importante. A colheita e a própria planta são o boletim final. É possível ter um teste de solo perfeitamente equilibrado e ainda ter uma colheita que é extremamente prejudicial à saúde. O balanço mineral no solo não se correlaciona necessariamente com o balanço mineral na planta. Isso é um golpe para a crença de que um solo saudável produz plantas saudáveis.</p>
+<p>No perfil do solo, a biologia sempre supera a química. Você pode fazer um teste do solo perfeitamente equilibrado do ponto de vista químico, mas se você tiver uma biologia ruim, sua colheita não será saudável. O inverso também é verdadeiro: você pode superar alguns desequilíbrios minerais com a biologia agressiva cultivando uma colheita saudável.</p>
+<p>As plantas movem nutrientes usando dois tipos de tecido de transporte. O floema move a energia da fonte de açúcar (folhas) para os três sumidouros de açúcar da planta - o novo crescimento no topo da planta, o sistema radicular e a fruta. O floema não transporta cálcio ou magnésio. O outro tipo de tecido de transporte - xilema - move a água e os nutrientes do sistema radicular para a parte superior da planta. O tecido do floema que move o açúcar da folha para a fruta tem um teor de açúcar de 75% e é uma solução espessa e xaroposa.</p>
+<p>Como o cálcio e o manganês não são translocados no floema, precisamos de um suprimento constante de cálcio e manganês todos os dias. No dia em que o cálcio e o manganês não são fornecidos, o novo crescimento no topo da planta, ou em qualquer ponto do fluxo de água, tem o potencial de se tornar deficiente.</p>
+<p>As plantas têm um ciclo fotográfico de 24 horas, onde os açúcares são produzidos nas folhas e depois são movidos para as três pias de açúcar. As plantas farão tudo o que estiver ao seu alcance para manter os novos brotos de crescimento perfeitamente equilibrados com a nutrição. Eles vão sabotar outras partes da planta para manter um novo crescimento saudável com os nutrientes ideais. Durante os estágios de enquadramento e vegetativo, os sumidouros de açúcar são o novo crescimento e, durante os estágios de preenchimento de frutas, o coletor de açúcar é o fruto. Nesses pontos, se houver uma deficiência de nutrientes, a planta sabotará as folhas mais velhas para preencher as folhas mais novas, e as folhas mais novas para preencher os frutos.</p>
+<p>O que outras pessoas estão dizendo</p>
+<p>A equipe de análise da seiva da planta na Holanda desenvolveu um gráfico com um círculo dividido em quatro quadrantes. Todos os elementos carregados positivamente - cátions - estão no lado esquerdo. Os elementos carregados negativamente - ânions - estão à direita. A metade superior contém todos os macronutrientes e a metade inferior contém todos os micronutrientes e minerais.</p>
+<p>Entendemos que o solo tem uma capacidade finita de retenção de minerais ou capacidade de troca catiônica (CTC). Cada solo pode conter apenas cátions e ânions. O que a equipe na Holanda descreveu com este gráfico é que cada célula vegetal também possui uma capacidade finita de retenção de minerais. Eles identificaram que cálcio, potássio, magnésio, sódio e amônio se antagonizam. Em outras palavras, quando o balde está cheio, nada mais pode ser introduzido. Um excesso de um desses elementos - por exemplo, potássio - criará uma deficiência de cálcio ou magnésio. Mas essa deficiência não pode ser corrigida pela adição de cálcio, pois o problema não é um problema de deficiência de cálcio, mas um problema de excesso de potássio. Precisamos aplicar o antídoto aos excessos e permitir que as deficiências se corrijam por conta própria.</p>
+<p>O mesmo vale para os ânions. Um excesso de nitrato, enxofre, cloreto ou fósforo pode criar deficiências dos outros. Então, temos algumas relações sinérgicas interessantes na diagonal entre o fósforo e o zinco, por exemplo, e entre o cálcio e o boro. Quatro nutrientes - nitrogênio, fósforo, potássio e magnésio - são considerados altamente móveis. Eles são movidos dentro da estrutura da planta muito rapidamente para onde a planta precisar deles. Sódio, enxofre e cloreto são moderadamente móveis. Eles não se movem tão rápido, mas se movimentam dentro do sistema da planta. Cálcio, no entanto, não tem bilhete para andar. Não é móvel porque não pode ser movido pelo transporte de floema.</p>
+<p>Micronutrientes são outra conversa inteiramente.</p>
+<p>Todos os nutrientes na metade superior do gráfico, com exceção do cálcio, são muito móveis. Eles podem se mover e podemos medir a diferença dos níveis de nutrientes nas folhas novas e nas folhas velhas. Cada relatório de seiva mostra os níveis de nutrientes das folhas novas e velhas sai lado a lado e olhamos para o diferencial para entender exatamente o que está acontecendo. Se, por exemplo, temos um relatório de seiva de tomates mostrando que os níveis de potássio nas novas folhas são de 3.000 partes por milhão e os níveis de potássio nas folhas antigas de 7.000 ppm, concluímos que esta planta possui um suprimento adequado de potássio.</p>
+<p>A maneira como tiramos essa conclusão desses números é porque há um excesso de potássio nas folhas velhas. A planta quer manter o equilíbrio perfeito no novo crescimento, de modo que coloca qualquer excedente nas folhas velhas no fundo. Portanto, temos 4.000 ppm a mais de potássio nas folhas inferiores do que no topo. Se houver uma deficiência, esses números serão revertidos.</p>
+<p>Estamos aprendendo que diferentes variedades do mesmo tipo de planta terão diferentes necessidades nutricionais. Algumas variedades de morango requerem 60% mais nitrogênio e 50% menos fósforo do que outra variedade no mesmo tipo de solo. A análise e comparação de seiva permitem que o produtor personalize nutrientes em grandes operações comerciais, variedade por variedade, para obter melhores resultados.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+
+
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/&amp;text=Gerenciando%20a%20integridade%20nutricional" target="_blank" rel="noopener" class="share-btn-twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/&amp;t=Gerenciando%20a%20integridade%20nutricional" target="_blank" rel="noopener" class="share-btn-facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="mailto:?subject=Gerenciando%20a%20integridade%20nutricional&amp;body=https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/" target="_blank" rel="noopener" class="share-btn-email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/&amp;title=Gerenciando%20a%20integridade%20nutricional" target="_blank" rel="noopener" class="share-btn-linkedin">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Gerenciando%20a%20integridade%20nutricional%20https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https://zeze-oliveira.github.io/post/gerenciando-a-integridade-nutricional/&amp;title=Gerenciando%20a%20integridade%20nutricional" target="_blank" rel="noopener" class="share-btn-weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://zeze-oliveira.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huf98b5473b75619b8206e03d39c6c470a_664790_270x270_fill_lanczos_center_2.png" alt="José Carlos de Oliveira"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://zeze-oliveira.github.io/">José Carlos de Oliveira</a></h5>
+      <h6 class="card-subtitle">Engenheiro Agrônomo</h6>
+      <p class="card-text">Engenheiro agrônomo com ampla experiência em produção de cafés especiais</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/jcpedralva" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jos%C3%A9-carlos-de-oliveira-6b8b8258/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+<section id="comments">
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  var disqus_config = function () {
+    
+    
+    
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "https-zeze-oliveira-github-io" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
+</section>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    
+  </p>
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+    Published with
+    <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a>  —
+    the free, <a href="https://github.com/wowchemy/wowchemy-hugo-modules" target="_blank" rel="noopener">
+    open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Citação</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copiar
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+      
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js" integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js" integrity="sha512-SeiQaaDh73yrb56sTW/RgVdi/mMqNeM2oBwubFHagc5BkixSpP1fvqF47mKzPGWYSSy4RwbBunrJBQ4Co8fRWA==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"Sem resultados","placeholder":"Pesquisar...","results":"Resultados encontrados"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projetos",
+        'publication' : "Publicações",
+        'talk' : "Palestras",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://https-zeze-oliveira-github-io.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/wowchemy.min.abf79d5abd9391a904c9b122bfe98c04.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
